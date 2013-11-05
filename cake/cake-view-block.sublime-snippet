@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<?php \$this->start('${1}'); ?>
+${2}
+<?php \$this->end(); ?>
+<?php \$this->fetch(''); ?>
+]]></content>
+	<tabTrigger>cakevblock</tabTrigger>
+	<scope>text.html.basic</scope>
+</snippet>

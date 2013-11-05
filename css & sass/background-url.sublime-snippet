@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+background: url(/img/${1:logo}.png) no-repeat;
+]]></content>
+	<tabTrigger>burl</tabTrigger>
+	<scope>source.sass, source.css</scope>
+</snippet>

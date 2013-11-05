@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<div style="clear: both;"></div>
+]]></content>
+	<tabTrigger>clear</tabTrigger>
+	<scope>text.html</scope>
+</snippet>

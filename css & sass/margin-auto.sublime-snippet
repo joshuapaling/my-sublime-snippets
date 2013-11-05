@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+margin-left: auto;
+margin-right: auto;
+]]></content>
+	<tabTrigger>mauto</tabTrigger>
+	<scope>source.sass, source.css</scope>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+public \$actsAs = array(
+	'Upload.Upload' => array(
+		'XXXXXXXimage_field_name' => array(
+			//'thumbnailMethod' => 'php',
+			'thumbnailSizes' => array(
+				'150wide' => '150w',
+
+			),
+			'fields' => array(
+				'dir' => 'XXXXXXXimage_field_dir' // eg. 'image_dir'
+			),
+			'deleteOnUpdate' => true
+		),
+	)
+);
+]]></content>
+	<tabTrigger>cakemupload</tabTrigger>
+	<scope>text.html.basic</scope>
+</snippet>

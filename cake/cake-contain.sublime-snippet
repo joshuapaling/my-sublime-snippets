@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+\$this->MyModel->contain(array(
+	'AnotherModel',
+	'AnotherModel2',
+	'AnotherModel3' => array(
+		'NestedModel' => array('SubNestedModel')
+	)
+));
+// INFO: http://book.cakephp.org/2.0/en/core-libraries/behaviors/containable.html
+]]></content>
+	<tabTrigger>cakecontain</tabTrigger>
+	<scope>text.html.basic</scope>
+</snippet>

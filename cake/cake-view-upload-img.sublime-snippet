@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+\$params = array(
+	'label' => 'Image (max 945 x exactly 531)',
+	'modelAlias' => 'FinishedWidget',
+	'field' => 'image',
+	// 'altField' => false // for if there's no alt field.
+	// 'thumbPath' => '../files/photo/image/'.\$this->Form->value('Photo.image_dir').'/150wide_' // For non-standard thrumb paths.
+);
+echo \$this->element('admin/image_field',\$params);
+
+// ***** AND ADD THIS TO THE FORM: , array('type'=>'file')
+]]></content>
+	<tabTrigger>cakevformimg</tabTrigger>
+	<scope>text.html.basic</scope>
+</snippet>

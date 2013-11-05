@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<%= ${1} %>
+]]></content>
+	<tabTrigger>re</tabTrigger>
+	<scope>text.html.ruby, text.html.eco</scope>
+</snippet>

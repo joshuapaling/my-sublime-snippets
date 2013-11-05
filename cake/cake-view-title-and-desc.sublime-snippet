@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<?php
+\$this->set('title_for_layout',"${1}");
+echo \$this->Html->meta( 'description', "${2}", array( 'inline' => false ));
+?>
+]]></content>
+	<tabTrigger>cakevseo</tabTrigger>
+	<scope>text.html.basic</scope>
+</snippet>
